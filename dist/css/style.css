@@ -315,7 +315,7 @@ html {
 }
 
 body {
-	color: #5B6F82;
+	color: #384E85;
 	font-size: 1rem
 }
 
@@ -443,7 +443,7 @@ h4, h5, h6, .h4, .h5, .h6 {
 .text-xs {
 	font-size: 16px;
 	line-height: 24px;
-	letter-spacing: -0.1px
+	letter-spacing: -0.1px;
 }
 
 h1, h2, .h1, .h2 {
@@ -1077,8 +1077,16 @@ button, input, select, textarea, label {
 
 .button-sm {
 	padding: 8px 24px;
-	height: 32px
+	height: 32px;
+	color: #384E85 !important;
+	transition: background .15s ease;
+	background: #ffffff;
 }
+
+	.button-sm:hover {
+		background: #384E85;
+		color: #ffffff !important;
+	}
 
 	.button-sm.button-shadow::before {
 		box-shadow: 0 4px 16px rgba(32,43,54,0.12)
@@ -1095,22 +1103,26 @@ button, input, select, textarea, label {
 
 .button-primary {
 	background: #00b9d2;
-	background: linear-gradient(65deg, #00A2B8 -25%, #00CFEB 100%)
+	background: linear-gradient(57deg, #384E85 0%, #1b2a4f 100%);
+	transition: background .15s ease
 }
 
 	.button-primary:hover {
-		background: #00bbd5;
-		background: linear-gradient(65deg, #00a4bb -25%, #00d1ee 100%)
+		background: #ffffff;
+		color: #384E85 !important;
+		transition: background .15s ease
 	}
 
 .button-secondary {
 	background: #00cec5;
-	background: linear-gradient(65deg, #00A2B8 -25%, #00F9D2 100%)
+	background: linear-gradient(57deg, #384E85 0%, #1b2a4f 100%);
+	transition: background .15s ease
 }
 
 	.button-secondary:hover {
-		background: #00d1c7;
-		background: linear-gradient(65deg, #00a4bb -25%, #00fcd4 100%)
+		background: #ffffff;
+		color: #384E85 !important;
+		transition: background .15s ease
 	}
 
 .button-block {
@@ -1130,7 +1142,7 @@ button, input, select, textarea, label {
 		width: 100%;
 		height: 500px;
 		background: #0f8a9d;
-		background: linear-gradient(57deg, #00C6A7 0%, #1E4D92 100%);
+		background: linear-gradient(57deg, #384E85 0%, #1b2a4f 100%);
 		-webkit-transform-origin: 0;
 		transform-origin: 0;
 		-webkit-transform: skewY(-12deg);
@@ -1571,12 +1583,13 @@ main {
 	font-size: 14px;
 	line-height: 20px;
 	letter-spacing: 0px;
-	color: #92A2B1;
-	border-top: 1px solid #E3E7EB
+	color: #ffffff;
+	border-top: 1px solid #384E85;
+	background: linear-gradient(57deg, #384E85 0%, #1b2a4f 100%);
 }
 
 	.site-footer a {
-		color: #92A2B1;
+		color: #ffffff;
 		text-decoration: none
 	}
 
