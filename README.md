@@ -1,4 +1,4 @@
-# IceHosting powered by fnageer.ml.
+# The IceHosting official website created & powered by @DangoWeb (Dango Web Solutions).
 ## Contributor ✨
 
 Thanks goes to this wonderful person:
@@ -8,6 +8,6 @@ Thanks goes to this wonderful person:
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/nageerf"><img src="https://avatars.githubusercontent.com/u/84286255?s=100" width="100px;" alt=""/><br /><sub><b>Faisal Nageer</b></sub></a><br /><a href="https://github.com/icehosting-xyz/icehosting-xyz.github.io/commits?author=nageerf" title="Made the Website">🛠</a> <a href="https://fnageer.ml" title="Level S Partner">👔</a></td>
+    <td align="center"><a href="https://github.com/nageerf"><img src="https://avatars.githubusercontent.com/u/84286255?s=100" width="100px;" alt=""/><br /><sub><b>Faisal</b></sub></a><br /><a href="https://github.com/icehosting-xyz/icehosting-xyz.github.io/commits?author=nageerf" title="Made the Website">🛠</a> <a href="https://fnageer.ml" title="Level S Partner">👔</a></td>
   </tr>
 </table>
